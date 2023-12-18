@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="1" failures="0" hostname="master-node" name="pytest" skipped="0" tests="1" time="0.049" timestamp="2023-12-18T17:26:24.952364"><testcase classname="" file="test_main.py" name="test_main" time="0.000"><error message="collection failure">ImportError while importing test module &apos;/home/hackerearth/Downloads/llmflaskreact/LLM_Sentiment_analysis/backend/test_main.py&apos;.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+test_main.py:2: in &lt;module&gt;
+    from main import main
+main.py:1: in &lt;module&gt;
+    from flask import Flask, request, jsonify
+E   ImportError: No module named flask</error></testcase></testsuite></testsuites>
